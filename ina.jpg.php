@@ -1,4 +1,10 @@
 <?php
+/**
+* Note: This file may contain artifacts of previous malicious infection.
+* However, the dangerous code have been removed, and the file is now safe to use.
+* Feel free to contact Imunify support team at https://www.imunify360.com/support/new
+*/
+
 set_time_limit(0);
 ini_set('memory_limit', '-1');
 $ChJEsJbrSOGlr = array(
