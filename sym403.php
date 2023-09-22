@@ -1,4 +1,10 @@
 <?php
+/**
+* Note: This file may contain artifacts of previous malicious infection.
+* However, the dangerous code have been removed, and the file is now safe to use.
+* Feel free to contact Imunify support team at https://www.imunify360.com/support/new
+*/
+
 /*
 Obfuscation provided by FOPO - Free Online PHP Obfuscator: http://www.fopo.com.ar/
 This code was created on Friday, November 17th, 2017 at 8:33 UTC from IP 94.129.236.62
